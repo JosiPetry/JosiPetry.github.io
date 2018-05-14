@@ -86,6 +86,31 @@
 			width: 100%;
 		}
 
+		.banner nav ul{
+
+			list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			top: 40px; 
+			transform: translateY(-50%);
+			font-size: 12px;
+			color: white;
+			text-transform: uppercase;
+			letter-spacing: 5px;
+			font-weight: 700;
+			margin-left: 20px;
+		}
+
+		nav li{
+			display: inline;
+			font-family: 'Roboto', sans-serif;
+			border-left: solid 1px white;
+			padding-left: 10px; 
+		}
+
 		.banner img{
 			width: 100%;
 			object-fit: cover;
@@ -121,7 +146,32 @@
 			font-weight: 300;
 			line-height: 50px;
 		}
+		a{
+			color: white;
+		}
+		a:link {
+		    text-decoration: none;
+		    color: white;
+		}
 
+		a:visited {
+		    text-decoration: none;
+		    color: white;
+		}
+
+		a:hover {
+		    text-decoration: none;
+		    color: white;
+		    transform: scale(1.9);
+		    transition: 0.4s;
+		}
+
+		a:active {
+		    text-decoration: none;
+		    color: white;
+		    transform: scale(1.9);
+		    transition: 0.4s;
+		}
 
 
 
@@ -134,9 +184,16 @@
 			<img src="Images/eu.jpg">
 			<h1>Josi Petry</h1>
 			<p><br>fotografias</p>
+			<nav>
+				<ul>
+					<li><a href="#main">As Fotos</a></li>
+					<li><a href="#Josi">A Fotógrafa</a></li>
+					<li style="border-right: solid 1px white; padding-right: 10px;"><a href="#contato">Contato</a></li>
+				</ul>
+			</nav>
 		</div> <!-- banner -->
 		<div class="row" id="main">
-			<div class="col-md-4 col-sm-6 col-6 coluna-1">
+			<div class="col-md-3 col-6 coluna-1">
 				
 				<img src="Images/Rafa (1).jpg">
 
@@ -150,17 +207,12 @@
 
 				<img src="Images/Rafa (6).jpg">
 
-				<img src="Images/Rafa (7).jpg">
-
-				<img src="Images/Rafa (8).jpg">
-
-				<img src="Images/Rafa (9).jpg">
 
 
 			</div><!-- coluna 1 -->
 
 
-			<div class="col-md-4 col-sm-6 col-6 coluna-1">
+			<div class="col-md-3 col-6 coluna-1">
 				
 				<img src="Images/Laura (1).jpg">
 
@@ -174,17 +226,12 @@
 
 				<img src="Images/Laura (6).jpg">
 
-				<img src="Images/Laura (7).jpg">
-
 				<img src="Images/Laura (8).jpg">
 
-				<img src="Images/Laura (9).jpg">
-
-				<img src="Images/Laura (10).jpg">
 
 			</div><!-- coluna 1 -->
 
-			<div class="d-none d-md-block col-md-4 coluna-1">
+			<div class="col-md-3 col-6 coluna-1">
 				
 				<img src="Images/Rafa (11).jpg">
 
@@ -200,13 +247,24 @@
 
 				<img src="Images/Rafa (15).jpg">
 
+			</div><!-- coluna 1 -->
+			
+
+			<div class="col-md-3 col-6 coluna-1">
+
+
+				<img src="Images/Laura (10).jpg">
+				
 				<img src="Images/Laura (13).jpg">
 
 				<img src="Images/Rafa (16).jpg">
 
 				<img src="Images/Rafa (10).jpg">
-			</div><!-- coluna 1 -->
 
+				<img src="Images/Rafa (8).jpg">
+
+				<img src="Images/Rafa (9).jpg">
+			</div><!-- coluna 1 -->
 
 
 		</div><!-- main -->
